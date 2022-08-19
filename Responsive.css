@@ -1,0 +1,75 @@
+/* versão Mobile */
+@media(max-width: 428px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+        font-size: 100%;
+        margin: 0 auto;
+    }
+
+    .conteudo{
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 66px 0 90px 0;
+    }
+
+    .telas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img{
+        margin: 21px 0 23px 0;
+    }
+
+    form{
+        width: 300px;
+    }
+
+    .nome{
+        margin-bottom: 19px;
+        font-size: 16px;
+    }
+
+    .input1, .input2{
+        margin-bottom: 59px;
+    }
+
+    .botao1{
+        margin-bottom: 72px;
+    }
+
+    .conteudoSecundario{
+        border: none;
+        align-self: center;
+        margin-bottom: 78px;
+    }
+
+    .conteudoSecundario,
+    .text1,
+    .text2,
+    .text3,
+    .botao3,
+    .input3{
+        width: 300px;
+    }
+
+    .text1,
+    .text2{
+        font-size: 20px;
+    }
+
+    .text2{
+        margin-bottom: 33px;
+        text-align: center;
+    }
+
+    .botao2{
+        margin-bottom: 54px;
+    }
+}
