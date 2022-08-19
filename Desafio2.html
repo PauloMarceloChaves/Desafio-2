@@ -23,19 +23,19 @@
             <section class="conteudo-principal">
                 <img class="img" src="image_1.png" alt="emoji de pessoa">
 
-                <form>
+                <div>
                     <label class="nome" for="name"><b>Nick:</b></label>
-                    <input class="input1" type="text" id="name">
+                    <input class="inputNome" type="text" id="name">
 
                     <label class="nome" for="intervalos"><b>Intervalo:</b></label>
-                    <select class="input2" name="intervalo" id="intervalos">
+                    <select class="inputSelect" name="intervalo" id="intervalos">
                         <option value="opcao1">Opção 1: 1 a 10</option>
                         <option value="opcao2">Opção 2: 1 a 100</option>
                         <option value="opcao3">Opção 3: 1 a 200</option>
                     </select>
 
-                    <button class="botao1" type="submit" disabled>COMEÇAR</button>
-                </form>
+                    <button class="botao" type="submit" disabled>COMEÇAR</button>
+                </div>
             </section>
 
             <section class="conteudoSecundario">
@@ -43,15 +43,16 @@
                     Olá <b><span class="fulano"></span></b>, vamos jogar! 
                 </p>
                 <p class="text2">
-                    De acordo com a opçao de intervalo que você escolheu, descubra o número.   
+                    De acordo com a opção de intervalo que você escolheu, descubra o número.   
                 </p>
 
-                <form>
+                <div>
                     <label class="nome" for="numero"><b>Digite um número:</b></label>
-                    <input class="input3" type="number" id="numero">
+                    <input class="inputDigite" type="number" id="numero">
 
-                    <button class="botao2" type="submit">JOGAR</button>
-                </form>
+                    <button class="jogar" type="submit" disabled>JOGAR</button>
+                    <button class="reset" type="reset">RECOMEÇAR</button>   
+                </div>
 
                 <p class="text3">
                     <b><span class="info"></span></b>

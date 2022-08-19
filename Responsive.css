@@ -27,7 +27,7 @@
         margin: 21px 0 23px 0;
     }
 
-    form{
+    div{
         width: 300px;
     }
 
@@ -36,11 +36,11 @@
         font-size: 16px;
     }
 
-    .input1, .input2{
+    .inputNome, .inputSelect{
         margin-bottom: 59px;
     }
 
-    .botao1{
+    .botao{
         margin-bottom: 72px;
     }
 
@@ -55,7 +55,7 @@
     .text2,
     .text3,
     .botao3,
-    .input3{
+    .inputDigite{
         width: 300px;
     }
 
@@ -69,7 +69,11 @@
         text-align: center;
     }
 
-    .botao2{
+    .jogar{
         margin-bottom: 54px;
+    }
+
+    .reset{
+        display: none;
     }
 }
